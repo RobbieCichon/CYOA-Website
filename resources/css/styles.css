@@ -1,0 +1,61 @@
+body {
+     background-color: black;}
+h1 {
+     color: white;
+     text-align: center;
+     font-family: verdana;}
+div.a{
+     color: white;
+     font-family: sans-serif;
+     font-size: 140%;
+     line-height: 150%;
+}
+div.b{
+     text-align: center;
+}
+div#storage{
+     color: white;
+     font-family: verdana;
+     font-size: 200%;
+     line-height: 100%;
+}
+div#Inventory{
+     color: white;
+     font-family: verdana;
+     font-size: 200%;
+     line-height: 100%;
+
+}
+div#Choices{
+     color: white;
+     font-family: sans-serif;
+     font-size: 250%;
+     line-height: 100%;
+}
+div#SChoices{
+     color: red;
+     font-family: sans-serif;
+     font-size: 150%;
+     line-height: 100%;
+     text-decoration: underline;
+}
+a{
+     text-decoration: none;
+     color: white;
+     font-family: sans-serif;
+     font-size: 250%;
+     line-height: 100%;
+
+}
+img.skeleton{
+     width:148px;
+     height:50px;
+}
+input.StartButton{
+     height:150px;
+     width:150px;
+     font-family: Verdana;
+     font-size: 200%
+}
+
+

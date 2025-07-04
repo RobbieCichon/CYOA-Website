@@ -1,0 +1,20 @@
+extends Layout
+block content
+     .a 
+          |The goal of this website is to have you play through a simple text adventure game.
+          br
+          | However, there's a catch.
+          br
+          | If someone tweets Boo at #CSC365, it will send you to the beginning! 
+          br
+          | The webiste will only consider tweets if they EXACTLY begin with "#CSC365[_]".
+          br
+          | After that, the website will remove all characters except for the English alphabet, and turn them to lowercase.
+          br
+          | In order for your tweet to count, it has end up with 'boo' after removing most characters.
+          br
+          | When you are ready, press the button below to begin.
+          br
+     .b
+          input.StartButton(type='button',id='start',value = 'Start!')
+     script(src='js/BoolCreator.js')
